@@ -1,0 +1,15 @@
+@import "../base.module.scss";
+
+.GameEnd {
+  @extend .baseComponents;
+  @extend .tracking-in-expand;
+  min-height: 20vh;
+}
+
+.actionButtons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 10vh;
+  justify-content: space-between;
+}

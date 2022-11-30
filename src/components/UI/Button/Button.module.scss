@@ -1,0 +1,13 @@
+.Button {
+  width: 100%;
+  background-color: gray;
+  padding: 2%;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  &:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+}

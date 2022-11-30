@@ -1,0 +1,7 @@
+@import "../base.module.scss";
+
+.StartGame {
+  @extend .baseComponents;
+  @extend .tracking-in-expand;
+  min-height: 20vh;
+}
