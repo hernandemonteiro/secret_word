@@ -23,15 +23,22 @@
   margin-top: 10%;
   input {
     padding: 7%;
-    width: 10%;
     text-transform: uppercase;
+    text-align: center;
   }
 }
 
 .boxLetters {
-    margin-top: 10%;
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
+  margin-top: 10%;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .Game {
+    text-align: center;
+    padding: 7%;
+  }
 }

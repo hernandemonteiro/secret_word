@@ -5,3 +5,16 @@
   @extend .tracking-in-expand;
   min-height: 20vh;
 }
+
+@media (max-width: 800px) {
+  .StartGame {
+    padding: 5%;
+    text-align: center;
+
+    h1,
+    p,
+    button {
+      margin: 10% 0;
+    }
+  }
+}
